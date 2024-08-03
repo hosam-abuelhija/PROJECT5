@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\PROJECT5\\project_5\\Project5\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|c:\\users\\orange\\desktop\\project5\\project5\\project5\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|solutionrelative:project5\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\project5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|solutionrelative:project5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\project5\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|solutionrelative:project5\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\project5\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92767D84-A62E-4F87-AD9B-E86AF9A5DCC9}|Project5\\Project5.csproj|solutionrelative:project5\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T13:45:12.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project5\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Project5\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAGEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T13:43:02.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Project5\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Project5\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T13:40:34.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Project5\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\PROJECT5\\Project5\\Project5\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Project5\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-03T13:37:40.542Z"
             }
           ]
         }
