@@ -326,7 +326,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="ElectionEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="ElectionEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Admins" EntityType="Self.Admin" />
     <EntitySet Name="Ads" EntityType="Self.Ad" />
     <EntitySet Name="Debates" EntityType="Self.Debate" />

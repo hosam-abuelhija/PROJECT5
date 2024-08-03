@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project5.Models;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,51 +10,97 @@ namespace Project5.Controllers
 {
     public class AdminController : Controller
     {
-        // GET: Admin
-        public ActionResult Index()
+       
+        private ElectionEntities db = new ElectionEntities();
+
+        public ActionResult Login()
         {
             return View();
         }
 
-        public ActionResult Dashboard()
+        [HttpPost]
+        public ActionResult Login(string Username, string Password)
         {
+            var admin = db.Admins.SingleOrDefault(u => u.username == Username);
+            if (admin != null && admin.password == Password)
+            {
+                Session["id"] = admin.id;
+                return RedirectToAction("Index", "Admin");
+            }
+            ViewBag.ErrorMessage = "Invalid Username or password.";
             return View();
         }
+        public ActionResult Index()
+        {
+            if (Session["id"] == null)
+            {
+                return RedirectToAction("Login", "Admin");
+            }
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
+        }
+       
+
+        public ActionResult Logout()
+        {
+            Session["id"] = null;
+            return RedirectToAction("Index", "Admin");
+        }
+
         public ActionResult Profile()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult LocalListsApplications()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult PartyListsApplications()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult ADsApplications()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult DebatesApplications()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult Results()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult Feedbacks()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult ViewCandedates()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
         public ActionResult AddAdmins()
         {
-            return View();
+            var id = Session["id"];
+            var admin = db.Admins.Find(id);
+            return View(admin);
         }
     }
 }
